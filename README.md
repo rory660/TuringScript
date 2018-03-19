@@ -2,7 +2,11 @@
 Language I made up to write Turing machines.
 
 ## How to use
-Scripts can be ran by passing them as an argument to TuringVM.py (Python 3)
+Scripts can be ran by being passed as an argument to TuringVM.py (Python 3)
+
+**Flags:**
+
+- `-t` - Print a trace to stdout.
 
 ## Explanation
 Within TuringScript files, every state is defined, followed by the inital tape configuration (optional) and tape head position (also optional)
